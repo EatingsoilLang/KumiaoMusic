@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9959d581-14e4-4092-bb88-2205937b3413" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SongService_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/BackServiceStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/controller/BackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/mapper/BackMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/service/BackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/src/main/resources/mapper/MusicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/src/test/java/cn/tedu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/target/classes/cn/tedu/BackServiceStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/target/classes/cn/tedu/controller/BackController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/target/classes/cn/tedu/mapper/BackMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/target/classes/cn/tedu/service/BackService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/target/classes/mapper/MusicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackService/target/test-classes/cn/tedu/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonResources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonResources/src/main/java/cn/tedu/pojo/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonResources/src/main/java/cn/tedu/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonResources/src/main/java/cn/tedu/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonResources/src/main/java/cn/tedu/utils/SerializeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonResources/src/test/java/cn/tedu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonResources/target/classes/cn/tedu/pojo/Music.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonResources/target/classes/cn/tedu/pojo/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonResources/target/classes/cn/tedu/utils/JsonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonResources/target/classes/cn/tedu/utils/SerializeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonResources/target/test-classes/cn/tedu/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicParents.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/MusicServiceStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/mapper/MusicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/src/main/resources/mapper/MusicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/src/test/java/cn/tedu/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/target/classes/cn/tedu/MusicServiceStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/target/classes/cn/tedu/controller/MusicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/target/classes/cn/tedu/mapper/MusicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/target/classes/cn/tedu/service/MusicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/target/classes/mapper/MusicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicService/target/test-classes/cn/tedu/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/StartSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/config/ESConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/mapper/SearchMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/src/main/resources/mapper/searchMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/src/test/java/cn/tedu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/target/classes/META-INF/SearchService.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/target/classes/cn/tedu/StartSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/target/classes/cn/tedu/config/ESConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/target/classes/cn/tedu/controller/SearchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/target/classes/cn/tedu/mapper/SearchMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/target/classes/cn/tedu/service/SearchService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/target/classes/mapper/searchMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchService/target/test-classes/cn/tedu/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server8888/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server8888/src/main/java/cn/tedu/StarterEServer01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server8888/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server8888/src/test/java/cn/tedu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server8888/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server8888/target/classes/cn/tedu/StarterEServer01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server8888/target/test-classes/cn/tedu/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/tedu/UserStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/tedu/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/tedu/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/cn/tedu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/main/resources/mapper/MusicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/src/test/java/cn/tedu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/tedu/UserStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/tedu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/tedu/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/cn/tedu/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/classes/mapper/MusicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/target/test-classes/cn/tedu/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zuul/src/main/java/cn/tedu/StarterZuul01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zuul/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zuul/src/test/java/cn/tedu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zuul/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zuul/target/classes/cn/tedu/StarterZuul01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zuul/target/test-classes/cn/tedu/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/tedu/AppTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/Server8888/target/" />
+    <ignored path="$PROJECT_DIR$/Zuul/target/" />
+    <ignored path="$PROJECT_DIR$/Common-Resources/target/" />
+    <ignored path="$PROJECT_DIR$/CommonResources/target/" />
+    <ignored path="$PROJECT_DIR$/MusicService/target/" />
+    <ignored path="$PROJECT_DIR$/ListenService/target/" />
+    <ignored path="$PROJECT_DIR$/SongService/target/" />
+    <ignored path="$PROJECT_DIR$/Music-Show/target/" />
+    <ignored path="$PROJECT_DIR$/MyTest01/target/" />
+    <ignored path="$PROJECT_DIR$/UserService/target/" />
+    <ignored path="$PROJECT_DIR$/BackService/target/" />
+    <ignored path="$PROJECT_DIR$/SearchService/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="root@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserService/src/main/java/cn/tedu/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2574">
+              <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server8888/src/main/java/cn/tedu/StarterEServer01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/controller/SearchController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/service/SearchService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BackService/src/main/java/cn/tedu/mapper/BackMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BackService/src/main/java/cn/tedu/controller/BackController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="69" column="53" lean-forward="true" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SearchService/src/test/java/cn/tedu/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/MusicServiceStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/service/MusicService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="springmvc" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ajax01</find>
+      <find>img0</find>
+      <find>&lt;a&gt;</find>
+      <find>left</find>
+      <find>singer</find>
+      <find>background-image</find>
+      <find>bg</find>
+      <find>img</find>
+      <find>form</find>
+      <find>conso</find>
+      <find>regist</find>
+      <find>dropdown-toggle</find>
+      <find>dropdown</find>
+      <find>nav</find>
+      <find>post</find>
+      <find>right</find>
+      <find>个人</find>
+      <find>snow</find>
+      <find>input</find>
+      <find>files</find>
+      <find>back</find>
+      <find>--&gt;</find>
+      <find>liuxing</find>
+      <find>流行</find>
+      <find>adddiv</find>
+      <find>main</find>
+      <find>128</find>
+      <find>sea</find>
+      <find>search</find>
+      <find>热门</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\ASUS\Desktop\MusicParents\MusicService\src\test\java\cn\tedu</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/js/L2D - 副本.js" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/js/L2D.js" />
+        <option value="$USER_HOME$/Downloads/jq22ImgInput436020160917/ImgInput20160917/index.html" />
+        <option value="$USER_HOME$/Downloads/jq22ImgInput436020160917/ImgInput20160917/css/ssi-uploader.css" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/css/ssi-uploader.css" />
+        <option value="$USER_HOME$/Downloads/jq22ImgInput436020160917/ImgInput20160917/css/ssi-uploader.min.css" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/css/ssi-uploader.min.css" />
+        <option value="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/UserStart.java" />
+        <option value="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/BackStart.java" />
+        <option value="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/back.html" />
+        <option value="$PROJECT_DIR$/BackService/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/BackService/pom.xml" />
+        <option value="$PROJECT_DIR$/BackService/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/houtai.html" />
+        <option value="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/service/BackService.java" />
+        <option value="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/mapper/BackMapper.java" />
+        <option value="$PROJECT_DIR$/BackService/src/main/resources/mapper/MusicMapper.xml" />
+        <option value="$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/service/MusicService.java" />
+        <option value="$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/mapper/MusicMapper.java" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/listen.html" />
+        <option value="$PROJECT_DIR$/UserService/src/main/java/cn/tedu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/UserService/src/main/java/cn/tedu/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/UserService/src/main/java/cn/tedu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/gerenzhongxin.html" />
+        <option value="$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/MusicServiceStart.java" />
+        <option value="$PROJECT_DIR$/CommonResources/src/main/java/cn/tedu/utils/xuliehua.java" />
+        <option value="$PROJECT_DIR$/CommonResources/src/main/java/cn/tedu/pojo/Music.java" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/huayu.html" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/gufeng.html" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/liuxing.html" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/yaogun.html" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/yueyu.html" />
+        <option value="$PROJECT_DIR$/SearchService/pom.xml" />
+        <option value="$PROJECT_DIR$/Zuul/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/conf/nginx.conf" />
+        <option value="$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/StartSearch.java" />
+        <option value="$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/config/ESConfig.java" />
+        <option value="$PROJECT_DIR$/SearchService/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/indexback1.html" />
+        <option value="$PROJECT_DIR$/../nginxMUSIC/music/index.html" />
+        <option value="$PROJECT_DIR$/MusicService/src/main/resources/mapper/MusicMapper.xml" />
+        <option value="$PROJECT_DIR$/BackService/src/main/java/cn/tedu/controller/BackController.java" />
+        <option value="$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/controller/MusicController.java" />
+        <option value="$PROJECT_DIR$/MusicService/pom.xml" />
+        <option value="$PROJECT_DIR$/Server8888/src/main/java/cn/tedu/StarterEServer01.java" />
+        <option value="$PROJECT_DIR$/UserService/src/main/resources/mapper/MusicMapper.xml" />
+        <option value="$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/service/SearchService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../maven3.6" />
+        <option name="userSettingsFile" value="D:\Develop\maven3.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="215" />
+    <option name="y" value="40" />
+    <option name="width" value="1505" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MusicParents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicParents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicParents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicParents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicParents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicParents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicParents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicParents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicParents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicParents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tedu" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="MusicParents" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Develop\Code\music\MusicParents" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\MusicParents\Music-Show\src\main" />
+      <recent name="C:\Users\ASUS\Desktop\MusicParents\ListenService\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.tedu" />
+      <recent name="cn.tedu.controller" />
+      <recent name="cn.tedu.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\MusicParents\SearchService\src\main" />
+      <recent name="C:\Users\ASUS\Desktop\MusicParents\BackService\src\main\java\cn\tedu" />
+      <recent name="C:\Users\ASUS\Desktop\MusicParents\BackService\src\main\resources" />
+      <recent name="C:\Users\ASUS\Desktop\MusicParents\UserService\src\main" />
+      <recent name="C:\Users\ASUS\Desktop\MusicParents\UserService\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MusicServiceStart">
+    <configuration name="BackServiceStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="BackService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.BackServiceStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicServiceStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="MusicService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.MusicServiceStart" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartSearch" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SearchService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.StartSearch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterZuul01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.StarterZuul01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="UserService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.UserStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_MusicParents" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62687" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.BackServiceStart" />
+      <item itemvalue="Spring Boot.MusicServiceStart" />
+      <item itemvalue="Spring Boot.StarterZuul01" />
+      <item itemvalue="Spring Boot.StartSearch" />
+      <item itemvalue="Spring Boot.UserStart" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MusicServiceStart" />
+        <item itemvalue="Spring Boot.StarterZuul01" />
+        <item itemvalue="Spring Boot.StartSearch" />
+        <item itemvalue="Spring Boot.UserStart" />
+        <item itemvalue="Spring Boot.BackServiceStart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9959d581-14e4-4092-bb88-2205937b3413" name="Default Changelist" comment="" />
+      <created>1576304833650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576304833650</updated>
+      <workItem from="1576304836473" duration="19089000" />
+      <workItem from="1576456241810" duration="35018000" />
+      <workItem from="1576542395506" duration="20956000" />
+      <workItem from="1576631327224" duration="10686000" />
+      <workItem from="1576722089251" duration="6094000" />
+      <workItem from="1576737261735" duration="16008000" />
+      <workItem from="1576803020349" duration="11368000" />
+      <workItem from="1576822710071" duration="4540000" />
+      <workItem from="1576892686504" duration="3565000" />
+      <workItem from="1576897858245" duration="2452000" />
+      <workItem from="1576908892909" duration="7418000" />
+      <workItem from="1576975168484" duration="11397000" />
+      <workItem from="1577060901108" duration="15255000" />
+      <workItem from="1577154879080" duration="5551000" />
+      <workItem from="1577167233095" duration="13427000" />
+      <workItem from="1577236282588" duration="28092000" />
+      <workItem from="1577341861197" duration="15510000" />
+      <workItem from="1577367398369" duration="4191000" />
+      <workItem from="1577407730213" duration="8496000" />
+      <workItem from="1577588005670" duration="62000" />
+      <workItem from="1577686486008" duration="3707000" />
+      <workItem from="1577759389878" duration="2198000" />
+      <workItem from="1577951107953" duration="3923000" />
+      <workItem from="1578105199662" duration="25000" />
+      <workItem from="1578637999849" duration="2244000" />
+      <workItem from="1581304372751" duration="1264000" />
+      <workItem from="1582952165653" duration="1986000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="254522000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info id="Designer" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49837488" visible="true" weight="0.15281501" />
+      <window_info id="Structure" order="3" sideWeight="0.5016251" side_tool="true" weight="0.104477614" />
+      <window_info id="设计师" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" />
+      <window_info anchor="bottom" id="Spring" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32258064" />
+      <window_info anchor="bottom" x="31" y="547" width="1876" height="283" id="Run" order="5" sideWeight="0.49946696" weight="0.19944212" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32925472" />
+      <window_info anchor="bottom" x="22" y="368" width="1876" height="304" id="Event Log" order="13" sideWeight="0.50053304" side_tool="true" weight="0.3726977" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32258064" />
+      <window_info anchor="bottom" id="Ant Build" order="16" weight="0.25396827" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.15549597" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.19083156" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info id="Designer" order="1" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49837488" visible="true" weight="0.24840085" />
+      <window_info id="Structure" order="3" sideWeight="0.5016251" side_tool="true" weight="0.104477614" />
+      <window_info id="设计师" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" />
+      <window_info anchor="bottom" id="Spring" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32258064" />
+      <window_info active="true" anchor="bottom" x="31" y="547" width="1876" height="283" id="Run" order="5" sideWeight="0.49946696" visible="true" weight="0.14126807" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32925472" />
+      <window_info anchor="bottom" x="22" y="368" width="1876" height="304" id="Event Log" order="13" sideWeight="0.50053304" side_tool="true" weight="0.3726977" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32258064" />
+      <window_info anchor="bottom" id="Ant Build" order="16" weight="0.25396827" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.1337953" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../nginxMUSIC/music/houtai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nginxMUSIC/conf/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="44" column="65" lean-forward="true" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchService/src/main/resources/mapper/searchMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/String.java" />
+    <entry file="file://H:/nginxMUSIC/nginxMUSIC/music/index.html" />
+    <entry file="file://$PROJECT_DIR$/../nginxMUSIC/music/indexback.html" />
+    <entry file="file://$PROJECT_DIR$/../nginxMUSIC/music/indexback1.html" />
+    <entry file="file://$PROJECT_DIR$/../nginxMUSIC/music/index222.html" />
+    <entry file="file://$PROJECT_DIR$/../nginxMUSIC/music/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39375">
+          <caret line="875" column="16" selection-start-line="875" selection-start-column="16" selection-end-line="875" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchService/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/java/cn/tedu/UserStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nginxMUSIC/music/listen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="158" column="26" lean-forward="true" selection-start-line="158" selection-start-column="26" selection-end-line="158" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackService/src/main/java/cn/tedu/BackServiceStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/StartSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nginxMUSIC/music/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#6;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#7;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#8;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#9;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#10;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#11;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#12;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#13;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#14;n#ul#0;n#article#0;n#aside#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#6;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#8;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#10;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/config/ESConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/mapper/SearchMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server8888/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonResources/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.10/jackson-databind-2.8.10-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonResources/src/main/java/cn/tedu/utils/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonResources/src/main/java/cn/tedu/utils/SerializeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonResources/src/main/java/cn/tedu/pojo/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonResources/src/main/java/cn/tedu/pojo/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonResources/src/test/java/cn/tedu/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackService/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackService/src/main/java/cn/tedu/service/BackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/mapper/MusicMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server8888/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server8888/src/test/java/cn/tedu/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zuul/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicService/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicService/src/main/resources/mapper/MusicMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/5.5.2/elasticsearch-5.5.2-sources.jar!/org/elasticsearch/index/query/MultiMatchQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/tedu/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zuul/src/main/java/cn/tedu/StarterZuul01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/resources/mapper/MusicMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/controller/MusicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2046">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/java/cn/tedu/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2574">
+          <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server8888/src/main/java/cn/tedu/StarterEServer01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackService/src/main/java/cn/tedu/mapper/BackMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchService/src/test/java/cn/tedu/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/MusicServiceStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicService/src/main/java/cn/tedu/service/MusicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchService/src/main/java/cn/tedu/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackService/src/main/java/cn/tedu/controller/BackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="69" column="53" lean-forward="true" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SongService:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>UserService</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="tomcat7:run" />
+  </component>
+</project>

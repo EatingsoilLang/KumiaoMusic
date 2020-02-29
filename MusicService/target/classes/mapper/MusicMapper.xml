@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.tedu.mapper.MusicMapper">
+    <select id="queryMusic" resultType="cn.tedu.pojo.Music">
+        select * from music where id = #{id};
+    </select>
+    <select id="MUSIC_LIST" resultType="cn.tedu.pojo.Music">
+        SELECT * FROM music LIMIT 0,12;
+    </select>
+    <select id="MUSIC_LIST01" resultType="cn.tedu.pojo.Music">
+SELECT liuxing.`m_id` as id,music.`name`,music.`picture`,music.`writer`,music.`adds`
+FROM liuxing INNER JOIN music ON liuxing.`m_id`=music.`id` LIMIT 0,12;
+    </select>
+
+    <select id="MusicListgufeng" resultType="cn.tedu.pojo.Music">
+SELECT gufeng.`mid` as id,music.`name`,music.`picture`,music.`writer`,music.`adds`
+FROM gufeng INNER JOIN music ON gufeng.`mid`=music.`id` LIMIT 0,12;
+    </select>
+
+    <select id="MusicListyaogun" resultType="cn.tedu.pojo.Music">
+SELECT yaogun.`mid` as id,music.`name`,music.`picture`,music.`writer`,music.`adds`
+FROM yaogun INNER JOIN music ON yaogun.`mid`=music.`id` LIMIT 0,12;
+    </select>
+
+    <select id="MusicListhuayu" resultType="cn.tedu.pojo.Music">
+SELECT huayu.`mid` as id,music.`name`,music.`picture`,music.`writer`,music.`adds`
+FROM huayu INNER JOIN music ON huayu.`mid`=music.`id` LIMIT 0,12;
+    </select>
+
+    <select id="MusicListyueyu" resultType="cn.tedu.pojo.Music">
+SELECT yueyu.`mid` as id,music.`name`,music.`picture`,music.`writer`,music.`adds`
+FROM yueyu INNER JOIN music ON yueyu.`mid`=music.`id` LIMIT 0,12;
+    </select>
+
+    <select id="queryLiuXing" resultType="cn.tedu.pojo.Music">
+        SELECT liuxing.`id`,music.`name`,music.`picture`,music.`writer`,music.`adds`
+        FROM liuxing
+        INNER JOIN music ON liuxing.`m_id`=music.`id`
+        WHERE liuxing.`id` = #{id};
+    </select>
+    <select id="getUserLove" resultType="cn.tedu.pojo.Music">
+        SELECT music.* FROM userslove LEFT JOIN music ON userslove.`mid`=music.`id` WHERE userslove.`uid`=#{id};
+    </select>
+    <delete id="delMyLove">
+        DELETE FROM userslove WHERE uid=#{uid} AND MID=#{mid}
+    </delete>
+    <insert id="addMyLove">
+        INSERT INTO userslove VALUES(#{uid},#{mid});
+    </insert>
+</mapper>

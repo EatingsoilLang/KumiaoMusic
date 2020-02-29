@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.tedu.config.ESConfig",
+      "name": "es",
+      "type": "cn.tedu.config.ESConfig"
+    }
+  ],
+  "properties": []
+}

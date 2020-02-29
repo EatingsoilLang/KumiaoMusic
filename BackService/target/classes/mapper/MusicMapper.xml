@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.tedu.mapper.BackMapper">
+    <insert id="addmusic">
+    insert into music values (null,#{name},#{picture},#{writer},#{adds});
+    </insert>
+    <select id="querymusicid" resultType="java.lang.String">
+        select id from music where name=#{name} and picture=#{picture}and writer=#{writer}and adds=#{adds};
+    </select>
+    <insert id="addtype">
+        insert into ${leixing} values (null,#{id})
+    </insert>
+</mapper>
